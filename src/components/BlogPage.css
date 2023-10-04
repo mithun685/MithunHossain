@@ -1,0 +1,17 @@
+.blog-container {
+    border-radius: 8px;
+}
+
+.blog-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.blog-list li {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px 0;
+}
+
+.blog-list li:last-child {
+    border-bottom: none;
+}

@@ -1,0 +1,17 @@
+.projects-container {
+    border-radius: 8px;
+}
+
+.project-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-list li {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px 0;
+}
+
+.project-list li:last-child {
+    border-bottom: none;
+}

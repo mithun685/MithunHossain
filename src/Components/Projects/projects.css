@@ -1,0 +1,202 @@
+.CyberbullyingDetector {
+    font-family: 'Arial', sans-serif;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    width: 400px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.CyberbullyingDetector h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.CyberbullyingDetector form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.CyberbullyingDetector textarea {
+    width: 100%;
+    min-height: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #3d4285;
+    resize: vertical;
+}
+
+.CyberbullyingDetector button {
+    align-self: center;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.CyberbullyingDetector button:hover {
+    background-color: #0056b3;
+}
+
+.CyberbullyingDetector p {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* MarriageAgePredictor Styling */
+.MarriageAgePredictor {
+    background-color: #FFFFFF;
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 650px;
+    margin: 10px auto;
+    transition: transform 0.3s;
+}
+
+.MarriageAgePredictor:hover {
+    transform: translateY(-5px);
+}
+
+.MarriageAgePredictor h1 {
+    text-align: center;
+    margin-bottom: 35px;
+    color: #2C3E50;
+}
+
+.MarriageAgePredictor form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.MarriageAgePredictor label {
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #34495E;
+}
+
+.MarriageAgePredictor input {
+    padding: 10px 15px;
+    border: 2px solid #EAEDED;
+    border-radius: 8px;
+    width: 50%;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.MarriageAgePredictor input:focus {
+    border-color: #3498DB;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+    outline: none;
+}
+
+.MarriageAgePredictor button {
+    padding: 12px 25px;
+    background-color: #3498DB;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.MarriageAgePredictor button:hover {
+    background-color: #2980B9;
+    transform: translateY(-2px);
+}
+
+.MarriageAgePredictor p {
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: center;
+    color: #2C3E50;
+    margin-top: 30px;
+    border: 2px dashed #3498DB;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Brain Stroke Prediction */
+.BrainStroke {
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-width: 600px;
+    margin: 20px auto;
+    transition: transform 0.3s;
+}
+
+.BrainStroke:hover {
+    transform: translateY(-3px);
+}
+
+.BrainStroke h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.BrainStroke form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.BrainStroke label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #555;
+}
+
+.BrainStroke input, 
+.BrainStroke select {
+    padding: 8px 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.BrainStroke input:focus, 
+.BrainStroke select:focus {
+    border-color: #6b8cef;
+    box-shadow: 0 0 8px rgba(107, 140, 239, 0.2);
+    outline: none;
+}
+
+.BrainStroke button {
+    padding: 10px 20px;
+    background-color: #6b8cef;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.BrainStroke button:hover {
+    background-color: #4a69bd;
+    transform: translateY(-1px);
+}
+
+.BrainStroke p {
+    font-weight: 600;
+    font-size: 1.1em;
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    border: 1px dashed #6b8cef;
+    padding: 8px;
+    border-radius: 8px;
+}

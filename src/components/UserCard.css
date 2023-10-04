@@ -1,0 +1,41 @@
+/* UserCard.css */
+.user-card {
+    display: flex;
+    border: 1px solid #ccc;
+    color: antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.details-container {
+    flex: 2;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}

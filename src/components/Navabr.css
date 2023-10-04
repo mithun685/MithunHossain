@@ -1,0 +1,28 @@
+/* Navbar.css */
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none; /* No bullets for the list */
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #ecf0f1; /* Light color for the link */
+    text-decoration: none; /* No underlines for links */
+    transition: 0.3s; /* Transition for hover effect */
+    padding: 5px 0; /* Padding for better click area and hover effect */
+    display: block; /* Makes the entire area clickable */
+}
+
+a:hover {
+    color: #bdc3c7; /* Changes color on hover */
+}
+
